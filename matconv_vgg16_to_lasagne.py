@@ -12,6 +12,7 @@ import io
 
 
 def prep_image(url,avg_im):
+    # Read URL
     ext = url.split('.')[-1]
     im = plt.imread(io.BytesIO(urllib.urlopen(url).read()), ext)
 
