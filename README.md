@@ -2,7 +2,7 @@
 This repo converts a pretrained VGG-16 CNN trained in MatConvNet to Lasagne
 
 ## Quick Start
-Simply run `matconv_vgg16_to_lasagne.py`, or check out the iPython Notebook (to come) to see the functions in use.
+Simply run `matconv_vgg16_to_lasagne.py`, or check out the iPython Notebook to see the functions in use.
 
 ## Files contained
 + `run_matconv.m' - Runs the VGG16 model in MatConvNet. Tested on MATLAB R2015b + MatConvNet beta15. 
